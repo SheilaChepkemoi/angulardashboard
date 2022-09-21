@@ -1,0 +1,81 @@
+<div mat-dialog-content class="product">
+    <form class="productform" [formGroup]="productForm">
+        <div class="row" >
+        <div class="col">
+          <label for="exampleInputEmail1" class="form-label">Product name</label>
+          <input type="text" class="form-control" formControlName="name">
+          
+        </div>
+        <div class="col">
+            <label for="exampleInputEmail1" class="form-label">Product Category</label>
+            <select class="form-select" [(ngModel)]="selectedCategory.name" 
+            formControlName="category" name="category"
+             (change)="onSelect($any ($event.target).value)">
+                <option value="0" selected>--Select Category--</option>
+                <option *ngFor="let category of categories" value={{category.name}}>{{category.name}}</option>
+              </select>
+              
+            
+          </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col">
+          <label for="exampleInputEmail1" class="form-label">Product Subcategory</label>
+          <select class="form-select" aria-label="Default select example" 
+          formControlName="subcategory">
+          <option value="0">--Select--</option>
+          <option *ngFor="let subcategory of subcategories"
+           value= {{subcategory.name}}>{{subcategory.name}}</option>
+                
+              </select>
+
+       
+          
+        </div>
+        <div class="col">
+            <label for="exampleInputEmail1" class="form-label">Product Brand</label>
+            <input type="text" class="form-control" formControlName="brand">
+            
+          </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col">
+          <label for="exampleInputEmail1" class="form-label" >Product Price</label>
+          <input type="number" class="form-control" formControlName="price">
+          
+          
+        </div>
+        <div class="col">
+            <label for="exampleInputEmail1" class="form-label" >Date Added</label>
+            <input type="date" class="form-control" formControlName="date">
+            
+          </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col"> 
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Product Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="description"></textarea>
+              </div>
+          
+        </div>
+        <div class="col">
+            <label for="formFile" class="form-label">Product Image</label>
+            <input class="form-control" type="file" id="formFile" accept=".jpg,.gif,.png" formControlName="image">
+            
+          </div>
+    </div>
+
+      </form>
+ 
+      
+  
+  </div>
+  <div mat-dialog-actions [align]="'end'">
+    <button mat-button mat-dialog-close color="primary">Close</button>
+    <button mat-button color="primary" (click)="addProduct()">{{actionBtn}}</button>
+  </div>
+ 
+
+  
+  

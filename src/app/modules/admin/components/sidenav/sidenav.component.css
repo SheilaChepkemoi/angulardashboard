@@ -1,0 +1,49 @@
+
+
+mat-sidenav-container{
+    height: 80vh;
+}
+a{
+    color: white;
+}
+
+mat-icon{
+        
+    font-size: 50px;
+}
+
+mat-sidenav{
+    background-color:rgb(221, 230, 233);
+    width: 20%;
+     
+}
+mat-sidenav-content{
+    background-color: whitesmoke;
+}
+mat-nav-list{
+    color: black;
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+.mat-divider{
+    
+    border-top-color: black;
+    border-top-width: 2px;
+    
+}
+.welcome{
+    color: black;
+   
+    padding-top: 10px;
+    
+
+}

@@ -1,0 +1,52 @@
+
+
+<mat-sidenav-container>
+    
+  <mat-sidenav #sidenav [opened]="true" [mode]="'side'"> 
+    
+      <div class="image">
+          <img src=" https://images.pexels.com/photos/5632403/pexels-photo-5632403.jpeg?auto=compress&cs=tinysrgb&w=600">
+       </div>
+       <mat-divider class="mat-divider"></mat-divider>
+     <mat-nav-list>
+      
+       <a mat-list-item [routerLink]= "['dashboard']" routerLinkActive="active-list-item" style="border-radius: 5px;">
+         Dashboard
+         <mat-icon matListIcon>dashboard</mat-icon>
+       </a>
+       
+       <a mat-list-item [routerLink] = "['users']" routerLinkActive="active-list-item">
+        <mat-icon matListIcon>person</mat-icon>
+         Users
+       </a> 
+       <a mat-list-item [routerLink]="['products']" routerLinkActive="active-list-item">
+        <mat-icon matListIcon>view_list</mat-icon>
+          Products
+        </a>
+        <a mat-list-item [routerLink]= "['sales']" routerLinkActive="active-list-item">
+          <mat-icon matListIcon>receipt</mat-icon>
+          Sales
+        </a>
+        <!-- <a mat-list-item [routerLink]= "['products2']" routerLinkActive="active-list-item">
+          products
+        </a> -->
+        <a mat-list-item [routerLink]="'/provideLink'" routerLinkActive="active-list-item">
+          <mat-icon matListIcon>settings</mat-icon>
+          Settings
+        </a>
+     </mat-nav-list> 
+  </mat-sidenav>
+<!-- Content or body of your page-->
+   <mat-sidenav-content class="welcome">
+   
+    
+
+  
+    <!-- <app-dashboard></app-dashboard> -->
+      <router-outlet></router-outlet>
+        
+   </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+

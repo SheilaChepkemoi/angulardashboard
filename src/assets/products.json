@@ -1,0 +1,146 @@
+{
+    "categories": [
+      {
+        "name": "Phones & Tablets",
+        "id": 1
+      },
+      {
+        "name": "Computing",
+        "id": 2
+      },
+      {
+        
+        "name": "Electronics",
+        "id": 3
+      }
+     
+    ],
+    "subcategories": [
+      {
+        "id": 1,
+        "name": "Phones",
+        "cat_id": "1"
+       
+      },
+      {
+        "id": 1,
+        "name": "Tablets",
+        "cat_id": "1"
+       
+      },
+      {
+        "id": 1,
+        "name": "Accessories",
+        "cat_id": "1"
+       
+      },
+      {
+        "id": 1,
+        "name": "TV",
+        "cat_id": "2"
+       
+      },
+      {
+        "id": 1,
+        "name": "Audio",
+        "cat_id": "2"
+       
+      },
+      {
+        "id": 1,
+        "name": "Accessories",
+        "cat_id": "2"
+       
+      },
+      {
+        "id": 1,
+        "name": "Laptops",
+        "cat_id": "3"
+       
+      },
+      {
+        "id": 1,
+        "name": "Accessories",
+        "cat_id": "3"
+       
+      },
+      {
+        "id": 1,
+        "name": "Data Storage",
+        "cat_id": "3"
+       
+      }
+
+
+    ],
+    "brand": [
+      {
+        "name": "Oppo",
+        "id": 1,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 2
+      },
+      {
+        "name": "Apple",
+        "id": 2,
+        "brand_id": 2
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+      {
+        "name": "Samsung",
+        "id": 2,
+        "brand_id": 1
+      },
+    
+      {
+        
+        "name": "Electronics",
+        "id": 3
+      }
+     
+    ]
+   
+  }

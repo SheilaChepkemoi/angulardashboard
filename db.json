@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "name": "john",
+      "email": "gmail@gmail.com",
+      "username": "john",
+      "id": 4
+    },
+    {
+      "name": "davina",
+      "email": "gmail@gmail.com",
+      "username": "dee",
+      "id": 5
+    },
+    {
+      "name": "sheila",
+      "email": "gmail@gmail.com",
+      "username": "dee",
+      "id": 6
+    },
+    {
+      "name": "sheila",
+      "email": "gg@gmail",
+      "username": "dee",
+      "id": 7
+    },
+    {
+      "name": "dee",
+      "email": "gmail@gmail.com",
+      "username": "ddd",
+      "id": 8
+    },
+    {
+      "name": "shem",
+      "email": "shem@gmail.com",
+      "username": "shem",
+      "id": 9
+    },
+    {
+      "name": "samson",
+      "email": "samson@gmail.com",
+      "username": "samson",
+      "id": 10
+    },
+    {
+      "name": "sheila",
+      "email": "gmail@gmail.com",
+      "username": "sheila",
+      "id": 11
+    },
+    {
+      "name": "peter",
+      "email": "peter@gmail.com",
+      "username": "peter",
+      "id": 12
+    },
+    {
+      "name": "rose",
+      "email": "rose@gmail.com",
+      "username": "rose",
+      "id": 13
+    },
+    {
+      "name": "rose",
+      "email": "rose@gmail.com",
+      "username": "rose",
+      "id": 14
+    }
+  ],
+  "products": [
+    {
+      "name": "Oppo",
+      "category": "Phones and Tablets",
+      "subcategory": "Phone",
+      "brand": "samsung",
+      "price": 130000,
+      "description": "Lorem",
+      "date": "2022-08-31",
+      "image": "C:\\fakepath\\sales.png",
+      "fileName": "",
+      "id": 11
+    },
+    {
+      "name": "nokia",
+      "category": "Phones and Tablets",
+      "subcategory": "Tablet",
+      "brand": "nokia",
+      "price": 1234,
+      "description": "lorem",
+      "date": "2022-08-31",
+      "image": "C:\\fakepath\\sales.png",
+      "id": 12
+    },
+    {
+      "name": "samsung",
+      "category": "Phones and Tablets",
+      "subcategory": "Tablet",
+      "brand": "samsung",
+      "price": 1234,
+      "description": "lorem",
+      "date": "2022-09-01",
+      "image": "C:\\fakepath\\pexels-shvets-production-7195232.jpg",
+      "fileName": "",
+      "id": 13
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

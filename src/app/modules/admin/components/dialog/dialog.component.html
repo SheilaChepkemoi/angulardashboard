@@ -1,0 +1,36 @@
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="userForm">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="John Doe" formControlName="name" >
+      <mat-error *ngIf="userForm.controls['name'].errors?.['required']">
+        Name is required
+      </mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Username</mat-label>
+      <input matInput placeholder="JohnDoe" formControlName="username">
+      <mat-error *ngIf="userForm.controls['name'].errors?.['required']">
+        Username is required
+      </mat-error>
+      
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="example@gmail.com" formControlName="email">
+      <mat-error *ngIf="userForm.controls['name'].errors?.['required']">
+        Email is required
+      </mat-error>
+      
+    </mat-form-field>
+    
+  </form>
+    
+
+</div>
+<div mat-dialog-actions [align]="'end'">
+  <button mat-button mat-dialog-close color="primary">Close</button>
+  <button mat-button color="primary" (click)="addUser()">{{actionBtn}}</button>
+</div>
+

@@ -1,0 +1,77 @@
+/* .tableone{
+  border-radius: 50px;
+  border-color: black;
+} */
+table {
+    width: 100%;
+    background-color: white;
+    font-family: 'Calibri';
+  }
+  
+mat-form-field {
+    font-size: 14px;
+    width: 30%;
+    margin-left: 30px;
+  }
+mat-label{
+  color:black;
+  
+}  
+
+
+/* Border */
+mat-form-field-appearance-outline{
+  color: black!important;
+}
+mat-paginator{
+  background-color:lightgray;
+  color: black;
+  border-bottom: 1px solid darkcyan;
+  border-right: 1px solid darkcyan;
+  border-left: 1px solid darkcyan;
+}
+/* Font color */
+input.mat-input-element {
+  color: black;
+}
+td.mat-cell {
+  /* row padding */
+ padding-left: 10px;
+  /* row border */
+ 
+  border: 1px solid darkcyan;
+ }
+
+ th.mat-header-cell {
+  /* row padding */
+  padding: 16px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  /* row border */
+  
+  border: 1px solid black;
+  
+
+ } 
+ tr.mat-row {
+  /* row border */
+  border: 1px solid darkcyan;
+}
+
+input {
+  color: black;
+}  
+
+  
+  td, th {
+    width: 25%;
+    color: black;
+  }
+
+.buttons{ 
+    display: flex;
+  }
+  .forms{
+
+    margin-left: 12px;
+  }
